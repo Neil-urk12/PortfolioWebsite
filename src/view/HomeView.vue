@@ -16,7 +16,6 @@ import intro from '@/components/introduction.vue';
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: gray;
 		width: 90%;
 		max-width: 1200px;
 		margin: 0 auto;

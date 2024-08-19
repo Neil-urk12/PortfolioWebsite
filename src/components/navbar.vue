@@ -34,6 +34,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    color: white;
   }
   .navbar ul{
     display: flex;

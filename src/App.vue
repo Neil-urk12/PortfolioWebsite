@@ -15,7 +15,9 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: gray;
+		background-image: url('src/components/assets/images/bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
 		width: 90%;
 		max-width: 1200px;
 		margin: 0 auto;

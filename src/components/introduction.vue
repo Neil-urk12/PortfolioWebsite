@@ -21,7 +21,6 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		background-color: gray;
 	}
 	.name{
 		font-family: "Anton", sans-serif;
@@ -33,7 +32,9 @@
 	p{
 		font-family: "Montserrat", sans-serif;
 		font-optical-sizing: auto;
+		font-size: 1.5em;
 		margin: 0px;
+		font-weight: 500;
 	}
 	.content-container div{
 		text-align: center;
