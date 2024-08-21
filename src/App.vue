@@ -11,15 +11,11 @@
 <style scoped>
 	
 	.container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-image: url('src/components/assets/images/bg.png');
-		background-repeat: no-repeat;
-		background-size: cover;
 		width: 90%;
 		max-width: 1200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		margin: 0 auto;
 		height: 100vh;
 		padding: 0;

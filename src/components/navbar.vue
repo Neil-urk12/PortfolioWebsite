@@ -1,11 +1,16 @@
+<script setup>
+  import { RouterLink } from 'vue-router'
+</script>
+
 <template>
   <div class="navbar">
     <ul>
-      <li>About</li>
-      <li>Projects</li>
-      <li>Skills</li>
-      <li>Contact</li>
-      <li>Resume</li>
+      <RouterLink to='/about'>About</RouterLink>
+      <RouterLink>Projects</RouterLink>
+      <RouterLink to='/'>Home</RouterLink>
+      <RouterLink to='/skills'>Skills</RouterLink>
+      <RouterLink>Contact</RouterLink>
+      <RouterLink>Resume</RouterLink>
     </ul>
   </div>
 </template>
@@ -43,11 +48,15 @@ export default {
     list-style: none;
     gap: 1rem;
   }
-  li{
+  a{
     font-size: 1.2rem;  
     border: 2px solid white;
     padding: 0.35rem 0.5rem;
     border-radius: 1.5rem;
+  }
+  a{
+    color: white;
+    text-decoration: none;
   }
 </style>
  
