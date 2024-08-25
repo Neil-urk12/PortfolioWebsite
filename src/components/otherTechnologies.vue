@@ -29,8 +29,6 @@
 	svg{
 		height: 3.5em;
 		margin: 0.5rem 0.35rem 0.5rem 0.35rem;
-		transition: 0.5s ease-in;
-		border-bottom: 2px solid white;
 	}
 	p{
 		font-family: "Montserrat", sans-serif;

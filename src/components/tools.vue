@@ -292,7 +292,6 @@
 	svg{
 		height: 3.5em;
 		margin: 0.25rem 0.35rem 0.25rem 0.35rem;
-		border-bottom: 2px solid white;
 	}
 	p{
 		font-family: "Montserrat", sans-serif;

@@ -42,13 +42,12 @@
 		text-align: center;
 		padding: 0.5rem;
 		border: 2px solid black;
-		margin: 0rem 0.35rem 0.25rem 0.35rem;
+		margin: 0.25rem 0.35rem 0.25rem 0.35rem;
 	}
 	
 	svg{
 		height: 3.5em;
 		margin: 0.5rem 0.35rem 0.5rem 0.35rem;
-		transition: 0.5s ease-in;
 	}
 	p{
 		font-family: "Montserrat", sans-serif;

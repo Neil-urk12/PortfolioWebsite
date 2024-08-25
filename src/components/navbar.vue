@@ -30,7 +30,7 @@ export default {
   .navbar{
     margin: 0px;
     position: fixed;
-    bottom: 16%;
+    bottom: 10%;
     transform: translateY(50%);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -40,7 +40,18 @@ export default {
     justify-content: center;
     align-items: center; 
     color: white;
+    animation: fadeIn 1s ease-in-out;
   }
+
+  @keyframes fadeIn{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  
   .navbar ul{
     display: flex;
     justify-content: center;
@@ -53,10 +64,8 @@ export default {
     border: 2px solid white;
     padding: 0.35rem 0.5rem;
     border-radius: 1.5rem;
-  }
-  a{
     color: white;
     text-decoration: none;
   }
+  
 </style>
- 
