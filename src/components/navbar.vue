@@ -40,7 +40,7 @@ export default {
     justify-content: center;
     align-items: center; 
     color: white;
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
   }
 
   @keyframes fadeIn{
