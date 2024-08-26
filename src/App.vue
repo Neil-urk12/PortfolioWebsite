@@ -13,7 +13,7 @@
 	.container {
 		width: 90%;
 		max-width: 1200px;
-		height: 100vh;
+		min-height: 100vh;
 		padding: 0;
 	}
 

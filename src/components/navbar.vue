@@ -6,7 +6,7 @@
   <div class="navbar">
     <ul>
       <RouterLink to='/about'>About</RouterLink>
-      <RouterLink>Projects</RouterLink>
+      <RouterLink to="/projects">Projects</RouterLink>
       <RouterLink to='/'>Home</RouterLink>
       <RouterLink to='/skills'>Skills</RouterLink>
       <RouterLink>Contact</RouterLink>
