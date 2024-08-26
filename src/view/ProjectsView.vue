@@ -2,10 +2,10 @@
     import { ref } from "vue";
     import navbar from "../components/navbar.vue";
     const projects = ref([        
-        { id: 1, name: 'Banking System', src: "src/components/assets/images/Internet Banking.png", used: "Html, Css, JavaScript" },        
-        { id: 2, name: 'Product Management', src: "src/components/assets/images/online-marketing.jpg", used: "Html, Css, JavaScript" },        
+        { id: 1, name: 'Banking System', src: "src/components/assets/images/compressedBanking.png", used: "Html, Css, JavaScript" },        
+        { id: 2, name: 'Product Management', src: "src/components/assets/images/compressedPmanagement.jpg", used: "Html, Css, JavaScript" },        
         { id: 3, name: 'TCP Chat Application', src:"src/components/assets/images/codeonpcimg.webp", used: "Java and Socket Networking" },
-        {id: 4, name: 'Study Quiz App', src: "src/components/assets/images/test.jpg", used: "VueJs"} 
+        {id: 4, name: 'Study Quiz App', src: "src/components/assets/images/compressedQuiz.jpg", used: "VueJs"} 
     ]);
 </script>
 <template>
