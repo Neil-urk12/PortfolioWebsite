@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
+    "vue-lazyload": "^3.0.0",
     "vue-router": "^4.4.3"
   },
   "devDependencies": {
