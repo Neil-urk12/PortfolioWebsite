@@ -14,7 +14,7 @@
         <div class="projects-container">
             <div class="projects" v-for="project in projects" :key="project.id">
                 <div class="projectbox">
-                    <img :src="project.src" :alt="project.name"/>
+                    <img loading="lazy" :src="project.src" :alt="project.name"/>
                     <p class="projectId">Project {{ project.id }}</p>
                     <p class="projectName">{{ project.name }}</p>
                     <p class="usedTools">{{ project.used }}</p>

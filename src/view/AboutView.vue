@@ -8,7 +8,7 @@
 			<h1>Get to know me!</h1>
 			<div class='box-container'>
 				<div class="pic-container">
-					<img src="src/components/assets/images/portflipic.jpeg" alt="Pic" class="pic">
+					<img loading="lazy" src="src/components/assets/images/compressedProfile.jpeg" alt="Pic" class="pic">
 				</div>
 				<bio></bio>
 			</div>
@@ -45,8 +45,7 @@
 		from{
 			opacity: 0;
 			transform: translateY(-25%);
-		}
-		to{
+		} to{
 			opacity: 1;
 			transform: translateY(0%);
 		}
@@ -69,6 +68,7 @@
 	
 	h1{
 		font-family: "Montserrat", sans-serif;
+		font-optical-sizing: auto;
 		text-align: center;
 		font-size: 3.5em;
 	}

@@ -9,24 +9,13 @@
       <RouterLink to="/projects">Projects</RouterLink>
       <RouterLink to='/'>Home</RouterLink>
       <RouterLink to='/skills'>Skills</RouterLink>
-      <RouterLink>Contact</RouterLink>
+      <RouterLink to='/contact'>Contact</RouterLink>
       <RouterLink>Resume</RouterLink>
     </ul>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'NavbarComponent',
-};
-</script>
-
 <style scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-  *{
-    margin: 0px;
-    padding: 0px;
-  }
   .navbar{
     margin: 0px;
     position: fixed;
@@ -34,7 +23,6 @@ export default {
     transform: translateY(50%);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,10 +32,9 @@ export default {
   }
 
   @keyframes fadeIn{
-    from{
+    from {
       opacity: 0;
-    }
-    to{
+    } to {
       opacity: 1;
     }
   }
@@ -67,5 +54,4 @@ export default {
     color: white;
     text-decoration: none;
   }
-  
 </style>
