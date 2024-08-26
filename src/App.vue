@@ -13,10 +13,6 @@
 	.container {
 		width: 90%;
 		max-width: 1200px;
-		/* display: flex; */
-		/* justify-content: center;
-		align-items: center;
-		margin: 0 auto; */
 		height: 100vh;
 		padding: 0;
 	}

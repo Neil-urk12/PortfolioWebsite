@@ -20,17 +20,27 @@
 				<ul>
 					<li>Wireframing</li>
 					<li>Prototyping</li>
+					<li>Functional Programming</li>
+					<li>OOP</li>
 					<li>Code Review</li>
 					<li>Prompt Engineering</li>
+					<li>CI/CD</li>
+					<li>API Design and Development</li>
 				</ul>
 			</div>
 			<div class='nonTechSkills'>
 				<h3>Non Tech Skills</h3>
 				<ul>
+					<li>Project Management</li>
 					<li>Design Thinking</li>
 					<li>Problem Solving</li>
 					<li>Algorithmic Thinking</li>
-					
+					<li>Leadership</li>
+					<li>Emotional Intelligence</li>
+					<li>Time Management</li>
+					<li>Collaboration and Teamwork</li>
+					<li>Adaptability</li>
+					<li>Communication</li>
 				</ul>
 			</div>
 		</div>
@@ -81,8 +91,7 @@
 		from{
 			transform: translateX(25%);
 			opacity: 0;
-		}
-		to{
+		} to{
 			transform: translateX(0%);
 			opacity: 1;
 		}
@@ -92,8 +101,7 @@
 		from {
 			transform: translateX(-25%);
 			opacity: 0;
-		}
-		to {
+		} to {
 			transform: translateX(0%);
 			opacity: 1;
 		}
@@ -102,17 +110,29 @@
 	.relatedTechSkills, .nonTechSkills{
 		display: flex;
 		align-items: center;
-		margin: 0.5rem 0rem;
+		margin: 0.75rem 0rem;
+		border-radius: 20px;
+		padding: 1rem;
 	}
-	
-	h3{
-		margin: 1rem;
+	.relatedTechSkills{
+		background: linear-gradient(270deg, #0036e6, #3665da, #4b8af6, #a1c9f6);
+	}
+	.relatedTechSkills li{
+		color: white;
+	}
+
+	.nonTechSkills{
+		background: linear-gradient(270deg, #8dc942, #69b848, #296932, #007547);
+	}
+
+	.nonTechSkills h3{
+		color: white;
 	}
 	
 	ul li{
 		list-style-type: none;
 		text-align: center;
-		font-size: 1.25em;
+		font-size: 1.30em;
 	}
 	
 	h1{
@@ -122,7 +142,9 @@
 	}
 	
 	h3{
+		margin: 1rem;
 		font-family: "Anton", sans-serif;
+		font-size: 2em;
 		font-weight: 400;
 	}
 </style>
