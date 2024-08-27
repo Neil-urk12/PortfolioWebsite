@@ -25,7 +25,6 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-
 	.main-container, .box-container, .pic-container{
 		display: flex;
 		align-items: center;
@@ -40,35 +39,28 @@
 		padding: 1rem;
 		animation: slideDown 0.5s ease-in-out forwards;
 	}
-	
 	@keyframes slideDown{
 		from{
 			opacity: 0;
 			transform: translateY(-25%);
-		} to{
+		} to {
 			opacity: 1;
 			transform: translateY(0%);
 		}
 	}
-	
 	.box-container{
 		flex-direction: row;
 	}
-	
 	.pic-container{
 		width: 100%;
 	}
-	
 	.pic{
 		max-width: 70%;
 		width: 100%;
 		border: 2px solid black;
 		border-radius: 20px;
 	} 
-	
 	h1{
-		font-family: "Montserrat", sans-serif;
-		font-optical-sizing: auto;
 		text-align: center;
 		font-size: 3.5em;
 	}

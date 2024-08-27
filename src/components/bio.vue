@@ -20,7 +20,6 @@
 		border-radius: 20px;
 	}
 	.bioIntro p {
-		font-family: "Montserrat", sans-serif;
 		font-size: 1.25em;
 		padding: 0.09em;
 		text-align: left;

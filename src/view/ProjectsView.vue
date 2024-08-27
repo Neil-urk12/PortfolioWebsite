@@ -76,11 +76,7 @@ h1 {
   width: 100%;
 }
 .projects-container {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0)
-  );
+  background: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0));
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -92,10 +88,7 @@ h1 {
   flex-wrap: wrap;
   animation: right 1s ease-in-out forwards;
 }
-.projectId,
-.projectName,
-.usedTools {
-  font-family: "Montserrat", sans-serif;
+.projectId,.projectName, .usedTools {
   font-weight: 600;
 }
 .projectId {

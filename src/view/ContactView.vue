@@ -35,12 +35,6 @@
 </template>
 
 <style scoped>
-    svg {
-        height: 3.5em;
-        margin: 0.5rem 0.35rem 0.5rem 0.35rem;
-        transition: 0.5s ease-in;
-        transform: scale(1);
-	}
     .socials{
         padding: 1rem;
         display: flex;
@@ -93,8 +87,6 @@
     }
     .outerTitle{
         font-size: 4.2rem;
-        font-family: "Montserrat", sans-serif;
-		font-optical-sizing: auto;
     }
     .heading{
         font-size: 3rem;
@@ -108,10 +100,6 @@
         background: linear-gradient(270deg, #3450b6, #5e77cd, #8ba1e0, #c4d7fa, #fdfefd);
         border-radius: 2rem;
         animation: slideFade 1s ease-in forwards;
-    }
-    .mailMessage{
-        font-family: "Montserrat", sans-serif;
-		font-optical-sizing: auto;
     }
     form, .message{
         padding: 1rem;
