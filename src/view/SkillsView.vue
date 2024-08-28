@@ -49,14 +49,6 @@
 </template>
 
 <style scoped>
-	svg{
-		height: 3.5em;
-		margin: 0.5rem 0.35rem 0.5rem 0.35rem;
-		transition: 0.5s ease-in;
-		border-bottom: 2px solid white;
-		transform: scale(1);
-	}
-	
 	.skill-container{
 		display: flex;
 		flex-direction: row;
@@ -64,7 +56,6 @@
 		justify-content: center;
 		width: 100%;
 	}
-	
 	.techSkills, .otherSkills{
 		background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
 		backdrop-filter: blur(10px);
@@ -72,45 +63,41 @@
 		box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 		width: 100%;
 		border-radius: 20px;
-		margin: 2rem 1rem;
+		margin: 1.5rem 1rem;
 		padding: 1rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		text-align: center;
 	}
-	
 	.techSkills{
 		animation: slideLeft 1s ease-in-out forwards;
 	}
-	
 	.otherSkills{
 		animation: slideRight 1s ease-in-out forwards;
 	}
-	
 	@keyframes slideRight{
 		from{
-			transform: translateX(25%);
+			transform: translateX(20%);
 			opacity: 0;
 		} to{
 			transform: translateX(0%);
 			opacity: 1;
 		}
 	}
-	
 	@keyframes slideLeft{
 		from {
-			transform: translateX(-25%);
+			transform: translateX(-20%);
 			opacity: 0;
 		} to {
 			transform: translateX(0%);
 			opacity: 1;
 		}
 	}
-	
 	.relatedTechSkills, .nonTechSkills{
 		display: flex;
 		align-items: center;
-		margin: 0.75rem 0rem;
+		margin: 0.5rem 0rem;
 		border-radius: 20px;
 		padding: 1rem;
 	}
@@ -120,31 +107,20 @@
 	.relatedTechSkills li{
 		color: white;
 	}
-
 	.nonTechSkills{
 		background: linear-gradient(270deg, #8dc942, #69b848, #296932, #007547);
 	}
-
 	.nonTechSkills h3{
 		color: white;
-	}
-	
+	}	
 	ul li{
 		list-style-type: none;
-		text-align: center;
-		font-size: 1.30em;
-	}
-	
-	h1{
-		text-align: center;
-		font-family: "Montserrat", sans-serif;
-		font-optical-sizing: auto;
-	}
-	
+		font-size: 1.30rem;
+	}	
 	h3{
 		margin: 1rem;
 		font-family: "Anton", sans-serif;
-		font-size: 2em;
+		font-size: 2rem;
 		font-weight: 400;
 	}
 </style>

@@ -3,30 +3,22 @@
 	import bio from '@/components/bio.vue';
 </script>
 <template>
-		<div class='main-container'>
-		<div class="about-container"> 
-			<h1>Get to know me!</h1>
-			<div class='box-container'>
-				<div class="pic-container">
-					<img loading="lazy" src="src/components/assets/images/compressedProfile.jpeg" alt="Pic" class="pic">
-				</div>
-				<bio></bio>
+	<div class="about-container"> 
+		<h1>Get to know me!</h1>
+		<div class='box-container'>
+			<div class="pic-container">
+				<img loading="lazy" src="src/components/assets/images/compressedProfile.jpeg" alt="Pic" class="pic">
 			</div>
-			<div class='completions'>
-				
-			</div>
+			<bio></bio>
 		</div>
-		<navbar></navbar>	
+		<div class='completions'>
+		</div>
 	</div>
+	<navbar></navbar>	
 </template>
 
 <style scoped>
-	.main-container{
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.main-container, .box-container, .pic-container{
+	.box-container, .pic-container{
 		display: flex;
 		align-items: center;
 	}
@@ -67,9 +59,28 @@
 	} 
 	
 	h1{
-		font-family: "Montserrat", sans-serif;
-		font-optical-sizing: auto;
 		text-align: center;
 		font-size: 3.5em;
 	}
+
+	@media screen and (max-width: 426px) {
+        h1{
+			font-size: 1.85rem;
+		}
+		.box-container{
+			flex-direction: column;
+		}
+    }
+    @media only screen and (min-width: 480px) {
+        
+    }
+    @media only screen and (min-width: 768px) {
+        
+    }
+    @media only screen and (min-width: 992px) {
+        
+    }
+    @media only screen and (min-width: 1200px) {
+        
+    }
 </style>
