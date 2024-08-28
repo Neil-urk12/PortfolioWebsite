@@ -263,13 +263,7 @@
   border: 2px solid black;
   margin: 0.5rem 0.35rem;
 }
-svg {
-  height: 3.5em;
-  margin: 0.25rem 0.35rem;
-}
 p {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   text-align: center;
   font-size: 1.2em;
   font-weight: 600;

@@ -33,10 +33,6 @@
 </template>
 
 <style scoped>
-    svg {
-        height: 3.5em;
-        margin: 0.5rem 0.35rem 0.5rem 0.35rem;
-	}
     .socials{
         padding: 1rem;
         display: flex;

@@ -99,7 +99,7 @@
 		align-items: center;
 		margin: 0.5rem 0rem;
 		border-radius: 20px;
-		padding: 1rem;
+		padding: 0.85rem;
 	}
 	.relatedTechSkills{
 		background: linear-gradient(270deg, #0036e6, #3665da, #4b8af6, #a1c9f6);
