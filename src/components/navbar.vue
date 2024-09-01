@@ -17,20 +17,11 @@
 
 <style scoped>
   .navbar{
-    margin: 0px;
     position: fixed;
     bottom: 10%;
     transform: translateY(50%);
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    color: white;
-    animation: fadeIn 0.5s ease-in-out;
+    animation: fadeIn 0.5s ease-in;
   }
-
   @keyframes fadeIn{
     from {
       opacity: 0;
@@ -38,20 +29,41 @@
       opacity: 1;
     }
   }
-  
   .navbar ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
     gap: 1rem;
   }
   a{
-    font-size: 1.2rem;  
-    border: 2px solid white;
-    padding: 0.35rem 0.5rem;
-    border-radius: 1.5rem;
-    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;  
+    font-weight: 500;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    color: black;
     text-decoration: none;
+  }
+  @media only screen and (max-width: 321px) {
+    .navbar{
+      margin: 0;
+    }
+    .navbar ul{
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    a{
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (min-width: 1800px) {
+    .navbar ul{
+      gap: 1.2rem;
+    }
+    a{
+      font-size: 1.85rem;
+    }
   }
 </style>

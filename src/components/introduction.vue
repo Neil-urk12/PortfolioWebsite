@@ -23,13 +23,11 @@
 		align-items: center;
 		animation: slide-in 1s ease-in-out;
 	}
-
 	@keyframes slide-in {
 		from {
 			transform: translateX(-100%);
 			opacity: 0;
-		}
-		to {
+		} to {
 			transform: translateX(0%);
 			opacity: 1;
 		}
@@ -42,7 +40,6 @@
 		margin: 0px
 	}
 	p{
-		font-family: "Montserrat", sans-serif;
 		font-optical-sizing: auto;
 		font-size: 1.5em;
 		margin: 0px;
