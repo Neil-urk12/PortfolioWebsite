@@ -13,13 +13,8 @@ import intro from '@/components/introduction.vue';
 <style scoped>
 	.main-container{
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 90%;
-		max-width: 1200px;
-		margin: 0 auto;
 		height: 100vh;
-		padding: 0;
 	}
 </style>

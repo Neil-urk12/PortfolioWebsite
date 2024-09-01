@@ -11,8 +11,6 @@
 			</div>
 			<bio></bio>
 		</div>
-		<div class='completions'>
-		</div>
 	</div>
 	<navbar></navbar>	
 </template>
