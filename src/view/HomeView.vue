@@ -1,12 +1,11 @@
 <script setup>
-import navbar from '@/components/navbar.vue';
-import intro from '@/components/introduction.vue';
+	import { defineAsyncComponent } from 'vue';
+	const intro = defineAsyncComponent(() => import("../components/introduction.vue"));
 </script>
 
 <template>
 	<div class='main-container'>
 		<intro></intro>
-		<navbar></navbar>
 	</div>
 </template>
 

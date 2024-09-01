@@ -1,7 +1,3 @@
-<script setup>
-    import navbar from '../components/navbar.vue';
-</script>
-
 <template>
     <div class="main-container">
         <h1 class="outerTitle">Talk to me</h1>
@@ -28,7 +24,6 @@
                 </form>
             </div>
         </div>
-        <navbar></navbar>
     </div>
 </template>
 

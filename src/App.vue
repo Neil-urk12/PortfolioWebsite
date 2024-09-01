@@ -1,10 +1,15 @@
 <script setup>
+	import { defineAsyncComponent } from 'vue';
 	import { RouterView } from 'vue-router';
+	const navbar = defineAsyncComponent(() =>
+		import('../src/components/navbar.vue')
+	)
 </script>
 
 <template>
 	<div class="container">
 		<RouterView/>
+		<navbar></navbar>
 	</div>
 </template>
 

@@ -1,12 +1,11 @@
 <script setup>
-import navbar from "../components/navbar.vue";
-import project from "../components/project.vue";
+  import { defineAsyncComponent } from 'vue';
+  const project = defineAsyncComponent(() =>import("../components/project.vue"));
 </script>
 <template>
   <div class="main-container">
     <h1>Relevant Projects</h1>
     <project></project>
-    <navbar></navbar>
   </div>
 </template>
 

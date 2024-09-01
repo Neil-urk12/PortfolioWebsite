@@ -1,5 +1,4 @@
 <script setup>
-	import navbar from '@/components/navbar.vue';
 	import bio from '@/components/bio.vue';
 </script>
 <template>
@@ -11,8 +10,7 @@
 			</div>
 			<bio></bio>
 		</div>
-	</div>
-	<navbar></navbar>	
+	</div>	
 </template>
 
 <style scoped>

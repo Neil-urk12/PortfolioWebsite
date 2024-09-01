@@ -1,6 +1,5 @@
 <script setup>
     import { ref } from 'vue';
-    import navbar from '../components/navbar.vue';
     const courseslides = ref([
         {
             id: 1,
@@ -54,7 +53,6 @@
             </a>
         </div>
     </div>
-    <navbar></navbar>
 </template>
 
 <style scoped>

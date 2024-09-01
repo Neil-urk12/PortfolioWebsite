@@ -21,6 +21,7 @@
     bottom: 10%;
     transform: translateY(50%);
     animation: fadeIn 0.5s ease-in;
+    transition: 0.5s ease-in;
   }
   @keyframes fadeIn{
     from {

@@ -1,51 +1,43 @@
 import { createRouter, createWebHistory } from "vue-router";
 const HomeView = () => import( "../view/HomeView.vue");
-const SkillsView = () => import("../view/SkillsView.vue");
-const AboutView = () => import("../view/AboutView.vue");
-const ProjectsView = () => import("../view/ProjectsView.vue");
-const ContactView = () => import("../view/ContactView.vue");
-const GalleryView = () => import("../view/GalleryView.vue");
-const CompletionsView = () => import("../view/CompletionsView.vue")
-
 const router = createRouter({
 		history: createWebHistory(import.meta.env.BASE_URL),
 		routes: [
 				{
-						path: '/',
-						name: 'Home',
-						component: HomeView
+					path: '/',
+					name: 'Home',
+					component: HomeView
 				},
 				{
 					path: '/skills',
 					name: 'Skills',
-					component: SkillsView
+					component: () => import("../view/SkillsView.vue")
 				},
 				{
 					path: '/about',
 					name: 'About',
-					component: AboutView
+					component: () => import("../view/AboutView.vue")
 				},
 				{
 					path: '/about/gallery',
 					name: 'Gallery',
-					component: GalleryView
+					component: () => import("../view/GalleryView.vue")
 				},
 				{
 					path: '/about/completions',
 					name: 'Completions',
-					component: CompletionsView
+					component: () => import("../view/CompletionsView.vue")
 				},
 				{
 					path: '/projects',
 					name: 'Projects',
-					component: ProjectsView
+					component: () => import("../view/ProjectsView.vue")
 				},
 				{
 					path: '/contact',
 					name: 'Contact',
-					component: ContactView
+					component: () => import("../view/ContactView.vue")
 				}
 		]
 })
-
 export default router
