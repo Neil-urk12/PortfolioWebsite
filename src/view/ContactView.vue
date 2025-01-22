@@ -1,5 +1,6 @@
 <script setup>
-    import navbar from '../components/navbar.vue';
+    import { defineAsyncComponent } from 'vue'
+    const navbar = defineAsyncComponent(() => import('../components/navbar.vue'))
 </script>
 
 <template>

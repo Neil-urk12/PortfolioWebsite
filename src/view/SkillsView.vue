@@ -1,8 +1,9 @@
 <script setup>
-	import navbar from '@/components/navbar.vue';
-	import languages from '@/components/languages.vue';
-	import toolsdiv from '@/components/tools.vue';
-	import otherTech from '@/components/otherTechnologies.vue';
+	import { defineAsyncComponent } from 'vue'
+	const navbar = defineAsyncComponent(() => import('../components/navbar.vue'))
+	const languages = defineAsyncComponent(() => import('../components/languages.vue'))
+	const toolsdiv = defineAsyncComponent(() => import('../components/tools.vue'))
+	const otherTech = defineAsyncComponent(() => import('../components/otherTechnologies.vue'))
 </script>
 
 <template>

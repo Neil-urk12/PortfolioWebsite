@@ -1,6 +1,6 @@
 <script setup>
-    import { ref } from 'vue';
-    import navbar from '../components/navbar.vue';
+    import { ref, defineAsyncComponent } from 'vue';
+    const navbar = defineAsyncComponent(() => import('../components/navbar.vue'))
     const courseslides = ref([
         {
             id: 1,

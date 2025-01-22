@@ -1,6 +1,7 @@
 <script setup>
-	import navbar from '@/components/navbar.vue';
-	import bio from '@/components/bio.vue';
+	import { defineAsyncComponent } from 'vue'
+	const navbar = defineAsyncComponent(() => import('../components/navbar.vue'))
+	const bio = defineAsyncComponent(() => import('../components/bio.vue'))
 </script>
 <template>
 	<div class="about-container"> 

@@ -1,6 +1,6 @@
 <script setup>
-    import navbar from '../components/navbar.vue';
-    import { ref, onMounted } from 'vue'
+    import { ref, onMounted, defineAsyncComponent } from 'vue'
+    const navbar = defineAsyncComponent(() => import('../components/navbar.vue'))
 
     const imgs = ref([
         {

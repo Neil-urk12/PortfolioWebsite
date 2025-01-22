@@ -1,16 +1,15 @@
 <script setup>
-	import icons from '@/components/socialsIcons.vue';
+	import { defineAsyncComponent } from 'vue';
+	const icons = defineAsyncComponent(() => import('../components/socialsIcons.vue'))
 </script>
 
 <template>
-	<div class = "content-container">
+	<div class="content-container">
 		<div>
 			<h1 class='name'>I'm Neil!</h1>
 			<p>A Computer Science student</p>
 			<p>Aspiring Computer Scientist and Software Engineer</p>
 			<icons></icons>
-		</div>
-		<div>
 		</div>
 	</div>
 </template>
